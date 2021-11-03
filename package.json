@@ -2,12 +2,11 @@
   "name": "reactfromscratch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack --mode development"
-  },
+  }, 
   "author": "",
   "license": "ISC",
   "dependencies": {
