@@ -9,7 +9,7 @@ module.exports = {
     mode: "development", // development | production
     // inform webpack where to put bundled code + name of file
     output: {
-        filename: "[name].[contenthash].js",
+        filename: "bundle.js",
         path: path.resolve("dist"),
         publicPath: "/",
     },
